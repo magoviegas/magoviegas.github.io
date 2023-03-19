@@ -1,7 +1,14 @@
 header {
+    display: flex;
+    justify-content: space-between;
     background-color: black;
-    
+    border-bottom: 10px solid #adff2f;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
 nav {
     text-align: center;
 }
@@ -9,7 +16,7 @@ nav {
 a {
     display: inline-flex;
     align-items: center;
-    color:greenyellow;
+    color:#adff2f;
     font-size: #fff;
     font-family: fira code;
     font-weight: 500;
@@ -19,16 +26,12 @@ a {
 
 a:before {
     content: "";
-    background-color: greenyellow;
+    background-color: #adff2f;
     width: 10px;
     height: 10px;
     margin-right: 10px;
 
 }
-
-
-
-
 
 img {
     width: 60px;
@@ -43,6 +46,7 @@ img {
     padding-left: 20px;
     padding-right: 20px;
     box-shadow: 5px 5px 5px #ff0000;
+    margin-right: 0;
     transition: transform 100ms linear;
 }
 
@@ -50,4 +54,12 @@ img {
     transform: scale(1.08);
     
     
+}
+
+h1 {
+    font-family: 'Press Start 2P';
+    font-size: 40px;
+    color: #adff2f;
+    text-shadow: 4px 4px 0px #000;
+
 }
