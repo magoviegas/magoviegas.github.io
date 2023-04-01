@@ -1,12 +1,12 @@
 .button {
     font-family: fira code;
     display: inline-block;
-    background-color:#ffae00;
+    background-color:#d7e2ff;
     height: 60px;
     line-height: 60px;
     padding-left: 20px;
     padding-right: 20px;
-    box-shadow: 5px 5px 5px #ff0000;
+    box-shadow: 5px 5px 5px #ff42e0;
     margin-top: 15px;
     margin-right: 0;
     transition: transform 100ms linear;
