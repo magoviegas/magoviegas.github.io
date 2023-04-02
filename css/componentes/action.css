@@ -1,7 +1,7 @@
 .action {
     display: inline-flex;
     align-items: center;
-    color:#7a0092;
+    color:#FF42E0;
     font-size: #fff;
     font-family: fira code;
     font-weight: 500;
@@ -11,7 +11,7 @@
 
 .action::before {
     content: "";
-    background-color: #7a0092;
+    background-color: #FF42E0;
     width: 10px;
     height: 10px;
     margin-right: 10px;
