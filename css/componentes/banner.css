@@ -3,5 +3,24 @@
     background-repeat: no-repeat;
     background-size: 100%;
     height: 800px;
-    border-bottom: 10px thick double #7a0092;
+    border-bottom: 10px thick double #d7e2ff;
+    padding-top: 115px;
+    padding-left: 90px;
+}
+
+.banner .wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 590px;
+    
+}
+
+.banner .box {
+    margin-bottom: 40px;
+   
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content: space-around;
 }
