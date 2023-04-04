@@ -3,6 +3,10 @@
     font-size: 35px;
     color: #924BDE;
     text-shadow: 5px 5px 0px #57FFCB;
-    image-rendering: auto;
-    display: inline;
+}
+
+.title.-second {
+    color: #000000;
+    text-shadow: none;
+    text-align: center;
 }
