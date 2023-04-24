@@ -2,13 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    width: 280px;
-    height: 280px;
-    margin: 5px;
+    background-color: #020029;
     box-shadow: 10px 10px 10px #030036;
 }
 
 .card-project.-blue {
     background-color: #020029
+    width: 280px;
+    height: 280px;
+    margin: 5px;
+
 }
