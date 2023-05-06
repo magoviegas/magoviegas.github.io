@@ -1,15 +1,17 @@
 .card-project {
+    
+    background-color: #5F71F5;
+    
+}
+
+.card-projectss {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #020029;
-    box-shadow: 10px 10px 10px #030036;
-}
-
-.card-project.-blue {
-    background-color: #020029
+    background-color: #010527;
     width: 280px;
     height: 280px;
-    margin: 5px;
-
+    margin: 40px auto;
+    box-shadow: 5px 5px 5px #ffffff;
+    cursor: pointer;
 }

@@ -10,3 +10,19 @@
     margin-bottom: 60px;
 }
 
+.main-section.-bgBlack {
+    background-color: #ffffff;
+}
+
+.main-section.-bdFirst {
+    border-color: #2141aa;
+}
+
+.main-section.-bgSecond {
+    background-color: #fc5959; 
+}
+
+.main-section.-bgBlack {
+    background-color: #020029;
+}
+
