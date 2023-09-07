@@ -1,5 +1,7 @@
 .banner {
+    diplay: flex;
     box-sizing: border-box;
+    align-items: center;
     background-image: url(../../assets/img/para-site.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -12,7 +14,8 @@
 .banner .wrapper {
     display: flex;
     flex-direction: column;
-    width: 590px;
+    width: 300px;
+    justify-content: space-between;
     
 }
 

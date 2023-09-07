@@ -1,6 +1,6 @@
 .button {
     font-family: fira code;
-    display: inline-block;
+    display: flex;
     background-color:#d7e2ff;
     height: 60px;
     line-height: 60px;
