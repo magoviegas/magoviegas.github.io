@@ -1,6 +1,6 @@
 .card-project {
     
-    background-color: #5F71F5;
+    background-color: #000000;
     
 }
 
@@ -8,7 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #010527;
+    background-color: #000000;
     width: 280px;
     height: 280px;
     margin: 40px auto;

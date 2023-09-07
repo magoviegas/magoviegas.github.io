@@ -8,6 +8,7 @@
 
 .button-arrow .content {
     display: none;
+    margin: 90px;
 }
 
 .button-arrow::before {
@@ -24,4 +25,10 @@
 
 .button-arrow.-left::before {
     transform: rotate(180deg) translate(20px);
+    margin-left: 7px;
+    
+}
+
+.button-arrow.-right {
+    margin-left: auto;
 }

@@ -1,3 +1,83 @@
-body {
+body, h1, h2, h3, figure {
     margin: 0;
+}
+
+button {
+    border: none;
+}
+
+/* Estilos para desktops */
+header {
+	background-color: #333;
+	padding: 20px;
+	color: #fff;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+section, .banner, .box{
+	flex-basis: 45%;
+	margin-bottom: 20px;
+}
+
+footer {
+	background-color: #ccc;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Media queries para tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+	main {
+		flex-direction: column;
+	}
+
+	section {
+		flex-basis: 100%;
+	}
+}
+
+/* Media queries para dispositivos móveis */
+@media (max-width: 767px) {
+	header {
+		padding: 10px;
+		font-size: 16px;
+	}
+
+	nav {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	nav li {
+		margin: 10px 0;
+	}
+
+	main  {
+		flex-direction: column;
+	}
+
+	section, .box {
+		flex-basis: 100%;
+	}
 }

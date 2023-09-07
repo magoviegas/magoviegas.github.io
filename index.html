@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="wclassth=device-wclassth, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MV Coder</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +13,6 @@
     <link rel="stylesheet" href="css/componentes/banner.css">
     <link rel="stylesheet" href="css/componentes/button.css">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/componentes/main-title.css">
     <link rel="stylesheet" href="css/componentes/subtitle.css">
     <link rel="stylesheet" href="css/componentes/box.css">
@@ -26,6 +26,8 @@
     <link rel="stylesheet" href="/css/componentes/main-description.css">
     <link rel="stylesheet" href="/css/componentes/button-arrow.css">
     <link rel="stylesheet" href="/css/componentes/node-card.css">
+    <link rel="stylesheet" href="/css/componentes/main-caroussel.css">
+    <link rel="stylesheet" href="/css/componentes/main-footer.css">
 </head>
 
     <body>
@@ -42,17 +44,21 @@
         </header>
 
         <section class="banner">
-            <div class="wrapper">
-                <div class="box">
-                    <h1 class="main-title">Matheus Viégas</h1>
-                    <h2 class="subtitle">Front-End Developer</h2>
-                </div>
-                
-                <div class="navigation">
-                    <a class="button" href=""lang="en">Download CV</a>
-                    <a class="button" href="">Contatos</a>
-                </div>
-            </div>
+            <div class="itens">
+                <div class="elements">
+                    <div class="wrapper">
+                        <div class="box">
+                            <h1 class="main-title">Matheus Viégas</h1>
+                            <h2 class="subtitle">Front-End Developer</h2>
+                        </div>
+                        
+                        <div class="navigation">
+                            <a class="button" href=""lang="en">Download CV</a>
+                            <a class="button" href="">Contatos</a>
+                        </div>
+                    </div>
+                </div>    
+            </div>    
         </section>
 
         <section class="main-section">
@@ -152,23 +158,48 @@
                 </figure>
             </section>
         </section>
-
+        <section class="dentro">
             <section class="main-section -bdBlack">
                 <h2 class="main-title -second">Sobre</h2>
 
                 <p class="main-description">
                     Matheus Viégas, cursa o nivel Superior em Análise e Desenvolvimento de Sistemas e Lingua Inglesa na Uininter (Universidade Internacional), desde criança usava plataformas de edições de vídeos e imagens quando se encontrou na programação como sua área de paixão profissional para suprir as necessidades dos usuários.
                 </p>
-
-                <button class="button-arrow -left"><span class="content">Avançar</span></button>
-                <figure class="node-card">
-                    <h2 class="title">2023</h2>
-                    <div class="logo">
-                        <img src="/assets/img/logo-projeto-portfolio.jpg" alt="logo do mv portfolio" >
-                    </div>
-                </figure>
-                <button class="button-arrow -right"><span class="content">Voltar</span></button>
             </section>
+        </section>
+
+        <section class="main-caroussel">
+            <div class="itens">
+                <div class="elements">
+                    <section class="main-section -bdBlack">
+                        <button class="button-arrow -left"><span class="content">Avançar</span></button>
+                        <div class="elements">
+                            <figure class="node-card">
+                                <h2 class="title">2023</h2>
+                                <div class="logo">
+                                    <img src="/assets/img/logo-projeto-portfolio.jpg" alt="logo do mv portfolio" >
+                                </div>
+                            </figure>
+                            <button class="button-arrow -right"><span class="content">Voltar</span></button>
+                        </div>    
+                    </section> 
+                </div>
+            </div>    
+        </section>
+
+    <footer class="main-footer">
+        <a class="action" href="https://youtube.com" target="_blank" >
+            <p>YouTube</p>
+        </a>
+        <a class="action" href="" target="_blank">
+            <p>Linkdin</p>
+        </a>
+        <a class="action" href="" target="_blank">
+            <p>Git Hub</p>
+        </a>
+    </footer>
+
+    <script src="/js/caroussel.js"></script>
         
     </body>
 </html>

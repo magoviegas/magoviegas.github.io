@@ -1,0 +1,20 @@
+.main-caroussel {
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+}
+
+
+
+.main-caroussel .button-arrow {
+    position:absolute;
+    bottom: 234px;
+}
+
+.main-caroussel .button-arrow.-left {
+    left: 420px;
+}
+
+.main-caroussel .button-arrow.-right {
+    right: 420px;
+}

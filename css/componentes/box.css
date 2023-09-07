@@ -1,12 +1,18 @@
 .box {
+    box-sizing: border-box;
     display: inline-block;
     background-color: #d7e2ff;
     box-shadow: 5px 5px 20px #ff42e0;
     text-align: center;
     padding: 20px 0px;
+    justify-content: space-around;
 
 }
 
 .box .title {
     margin-bottom: 28px;
+}
+
+.box .elements {
+    
 }

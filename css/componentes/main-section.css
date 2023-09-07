@@ -4,6 +4,7 @@
     padding-bottom: 100px;
     border-bottom: 10px solid #57FFCD;
     
+    
 }
 
 .main-section .main-title {
@@ -11,18 +12,34 @@
 }
 
 .main-section.-bgBlack {
+    display: flex;
+    align-items: center;
     background-color: #ffffff;
 }
 
 .main-section.-bdFirst {
     border-color: #2141aa;
+    display: ruby-text;
+    
 }
+
 
 .main-section.-bgSecond {
     background-color: #fc5959; 
+    display: ruby-text;
+    
 }
+
 
 .main-section.-bgBlack {
+    justify-content: center;
     background-color: #020029;
+    display: ruby-text;
+    margin-left: 500px;
+    
 }
 
+
+element .-bdBlack {
+    margin-left: 100px;
+}
