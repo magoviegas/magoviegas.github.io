@@ -1,5 +1,6 @@
-body, h1, h2, h3, figure {
+body, h1, h2, h3, figure, input {
     margin: 0;
+	padding: 0;
 }
 
 button {
@@ -81,3 +82,4 @@ footer {
 		flex-basis: 100%;
 	}
 }
+
